@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 using System.Linq;
 using System.Threading.Tasks;
 
@@ -9,10 +10,13 @@ namespace Rocky.Models
     public class Category
     {
         [Key]
-        public int Id { get; }
+        [Column("Id")]
+        public int Id { get; set; }
 
-        public string Name { get; }
+        [Column("Name")]
+        public string Name { get; set; }
 
-        public int DisplayOrder { get; }
+        [Column("DisplayOrder")]
+        public int DisplayOrder { get; set; }
     }
 }

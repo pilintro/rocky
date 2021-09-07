@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\adriano.soares\\Desktop\\FormaçõesUdemy\\ASP.NET CORE 1\\Rocky\\Rocky\\Rocky.csproj": {}
+    "C:\\Users\\adriano.soares\\Desktop\\FormaçõesUdemy\\ASP.NET CORE 1\\rocky\\Rocky\\Rocky.csproj": {}
   },
   "projects": {
-    "C:\\Users\\adriano.soares\\Desktop\\FormaçõesUdemy\\ASP.NET CORE 1\\Rocky\\Rocky\\Rocky.csproj": {
+    "C:\\Users\\adriano.soares\\Desktop\\FormaçõesUdemy\\ASP.NET CORE 1\\rocky\\Rocky\\Rocky.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\adriano.soares\\Desktop\\FormaçõesUdemy\\ASP.NET CORE 1\\Rocky\\Rocky\\Rocky.csproj",
+        "projectUniqueName": "C:\\Users\\adriano.soares\\Desktop\\FormaçõesUdemy\\ASP.NET CORE 1\\rocky\\Rocky\\Rocky.csproj",
         "projectName": "Rocky",
-        "projectPath": "C:\\Users\\adriano.soares\\Desktop\\FormaçõesUdemy\\ASP.NET CORE 1\\Rocky\\Rocky\\Rocky.csproj",
+        "projectPath": "C:\\Users\\adriano.soares\\Desktop\\FormaçõesUdemy\\ASP.NET CORE 1\\rocky\\Rocky\\Rocky.csproj",
         "packagesPath": "C:\\Users\\adriano.soares\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\adriano.soares\\Desktop\\FormaçõesUdemy\\ASP.NET CORE 1\\Rocky\\Rocky\\obj\\",
+        "outputPath": "C:\\Users\\adriano.soares\\Desktop\\FormaçõesUdemy\\ASP.NET CORE 1\\rocky\\Rocky\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -25,9 +25,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "http://nuget.anf.pt:443/nuget": {},
-          "https://api.nuget.org/v3/index.json": {},
-          "https://www.myget.org/F/farminveste/auth/4b095ffb-baff-4504-8687-de03a537190f/api/v3/index.json": {}
+          "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "netcoreapp3.1": {
@@ -42,6 +40,22 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[5.0.9, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.9, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[3.1.5, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
